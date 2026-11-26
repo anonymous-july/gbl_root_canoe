@@ -1,9 +1,6 @@
 name: deploy pages
 
 on:
-  push:
-    branches: [new_wiki]
-    paths: [wiki/**]
   workflow_dispatch:
 
 permissions:
